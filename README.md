@@ -74,8 +74,17 @@ EDGE_STORE_SECRET_KEY=
 ```
 npx convex dev
 ```
+This will start the Convex server and open the Convex dashboard in your browser.
 
-5. Run the development server
+5. Set Up Clerk
+Next you will need to get Clerk API keys from the Clerk dashboard.  https://dashboard.clerk.com/apps/
+You will also need to update the auth.config.js file with the Clerk API URL and Application ID.
+
+6. Set Up Edgestore
+Then you will need to get Edgestore API keys from the Edgestore dashboard. https://dashboard.edgestore.dev/
+
+
+7. Run the development server
 
 ```
 npm run dev
